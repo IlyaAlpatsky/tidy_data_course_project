@@ -4,7 +4,7 @@
 #
 
 #
-# Main script return list with data frames and save data into csv filesa
+# Main script  save data into text filesa
 #
 data_preparation_script <- function()
 {
