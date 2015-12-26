@@ -193,7 +193,7 @@ download_samsung_data <- function()
 }
 
 #
-# Write tidy data to csv files
+# Write tidy data to text files
 #
 write_datasets <- function(mean_std_tidy_data , grouped_tidy_data)
 {
