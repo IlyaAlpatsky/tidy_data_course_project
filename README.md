@@ -27,4 +27,9 @@ I tried to comment code in extensive manner. Please refer to run_analysis.R file
 
 # The code book
 
-##
+## Data source
+
+## Study design
+
+## Code book details: Information about variables and summary choices
+
