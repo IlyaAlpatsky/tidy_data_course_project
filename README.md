@@ -75,132 +75,16 @@ According to the project design to prepare final tidy dataset from raw data dist
 5. made from tidy dataset generated on steps 1-4 new tidy dataset with averages for each activity and for each subject.
 
 Variables in final dataset with averages for all mesurements means and standard deviations groped by activity and subject:
-1. 'Subject_code' : subject code from file 'subject_train.txt' or 'subject_test.txt'
-2. Activity_name : activity recoded to lower case names of activity original codes are in files: 'train/y_train.txt' or 'test/y_test.txt' original code - activity name mepping in file: 'activity_labels.txt'
-3.-68. Average value for group coded 
 
-) %>% 
-    summarise(mean_tBodyAcc_mean_X = mean(tBodyAcc_mean_X),
-              mean_tBodyAcc_mean_Y = mean(tBodyAcc_mean_Y),
-              mean_tBodyAcc_mean_Z = mean(tBodyAcc_mean_Z),
-              mean_tBodyAcc_std_X = mean(tBodyAcc_std_X),
-              mean_tBodyAcc_std_Y = mean(tBodyAcc_std_Y),
-              mean_tBodyAcc_std_Z = mean(tBodyAcc_std_Z),
-              mean_tGravityAcc_mean_X = mean(tGravityAcc_mean_X),
-              mean_tGravityAcc_mean_Y = mean(tGravityAcc_mean_Y),
-              mean_tGravityAcc_mean_Z = mean(tGravityAcc_mean_Z),
-              mean_tGravityAcc_std_X = mean(tGravityAcc_std_X),
-              mean_tGravityAcc_std_Y = mean(tGravityAcc_std_Y),
-              mean_tGravityAcc_std_Z = mean(tGravityAcc_std_Z),
-              mean_tBodyAccJerk_mean_X = mean(tBodyAccJerk_mean_X),
-              mean_tBodyAccJerk_mean_Y = mean(tBodyAccJerk_mean_Y),
-              mean_tBodyAccJerk_mean_Z = mean(tBodyAccJerk_mean_Z),
-              mean_tBodyAccJerk_std_X = mean(tBodyAccJerk_std_X),
-              mean_tBodyAccJerk_std_Y = mean(tBodyAccJerk_std_Y),
-              mean_tBodyAccJerk_std_Z = mean(tBodyAccJerk_std_Z),
-              mean_tBodyGyro_mean_X = mean(tBodyGyro_mean_X),
-              mean_tBodyGyro_mean_Y = mean(tBodyGyro_mean_Y),
-              mean_tBodyGyro_mean_Z = mean(tBodyGyro_mean_Z),
-              mean_tBodyGyro_std_X = mean(tBodyGyro_std_X),
-              mean_tBodyGyro_std_Y = mean(tBodyGyro_std_Y),
-              mean_tBodyGyro_std_Z = mean(tBodyGyro_std_Z),
-              mean_tBodyGyroJerk_mean_X = mean(tBodyGyroJerk_mean_X),
-              mean_tBodyGyroJerk_mean_Y = mean(tBodyGyroJerk_mean_Y),
-              mean_tBodyGyroJerk_mean_Z = mean(tBodyGyroJerk_mean_Z),
-              mean_tBodyGyroJerk_std_X = mean(tBodyGyroJerk_std_X),
-              mean_tBodyGyroJerk_std_Y = mean(tBodyGyroJerk_std_Y),
-              mean_tBodyGyroJerk_std_Z = mean(tBodyGyroJerk_std_Z),
-              mean_tBodyAccMag_mean = mean(tBodyAccMag_mean),
-              mean_tBodyAccMag_std = mean(tBodyAccMag_std),
-              mean_tGravityAccMag_mean = mean(tGravityAccMag_mean),
-              mean_tGravityAccMag_std = mean(tGravityAccMag_std),
-              mean_tBodyAccJerkMag_mean = mean(tBodyAccJerkMag_mean),
-              mean_tBodyAccJerkMag_std = mean(tBodyAccJerkMag_std),
-              mean_tBodyGyroMag_mean = mean(tBodyGyroMag_mean),
-              mean_tBodyGyroMag_std = mean(tBodyGyroMag_std),
-              mean_tBodyGyroJerkMag_mean = mean(tBodyGyroJerkMag_mean),
-              mean_tBodyGyroJerkMag_std = mean(tBodyGyroJerkMag_std),
-              mean_fBodyAcc_mean_X = mean(fBodyAcc_mean_X),
-              mean_fBodyAcc_mean_Y = mean(fBodyAcc_mean_Y),
-              mean_fBodyAcc_mean_Z = mean(fBodyAcc_mean_Z),
-              mean_fBodyAcc_std_X = mean(fBodyAcc_std_X),
-              mean_fBodyAcc_std_Y = mean(fBodyAcc_std_Y),
-              mean_fBodyAcc_std_Z = mean(fBodyAcc_std_Z),
-              mean_fBodyAccJerk_mean_X = mean(fBodyAccJerk_mean_X),
-              mean_fBodyAccJerk_mean_Y = mean(fBodyAccJerk_mean_Y),
-              mean_fBodyAccJerk_mean_Z = mean(fBodyAccJerk_mean_Z),
-              mean_fBodyAccJerk_std_X = mean(fBodyAccJerk_std_X),
-              mean_fBodyAccJerk_std_Y = mean(fBodyAccJerk_std_Y),
-              mean_fBodyAccJerk_std_Z = mean(fBodyAccJerk_std_Z),
-              mean_fBodyGyro_mean_X = mean(fBodyGyro_mean_X),
-              mean_fBodyGyro_mean_Y = mean(fBodyGyro_mean_Y),
-              mean_fBodyGyro_mean_Z = mean(fBodyGyro_mean_Z),
-              mean_fBodyGyro_std_X = mean(fBodyGyro_std_X),
-              mean_fBodyGyro_std_Y = mean(fBodyGyro_std_Y),
-              mean_fBodyGyro_std_Z = mean(fBodyGyro_std_Z),
-              mean_fBodyAccMag_mean = mean(fBodyAccMag_mean),
-              mean_fBodyAccMag_std = mean(fBodyAccMag_std),
-              mean_fBodyBodyAccJerkMag_mean = mean(fBodyBodyAccJerkMag_mean),
-              mean_fBodyBodyAccJerkMag_std = mean(fBodyBodyAccJerkMag_std),
-              mean_fBodyBodyGyroMag_mean = mean(fBodyBodyGyroMag_mean),
-              mean_fBodyBodyGyroMag_std = mean(fBodyBodyGyroMag_std),
-              mean_fBodyBodyGyroJerkMag_mean = mean(fBodyBodyGyroJerkMag_mean),
-              mean_fBodyBodyGyroJerkMag_std = mean(fBodyBodyGyroJerkMag_std)
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
-16.
-17.
-18.
-19.
-20.
-21.
-22.
-23.
-24.
-25.
-26
-27.
-28.
-29.
-30.
-41.
-42.
-43.
-44.
-45.
-46.
-47.
-48.
-49.
-50.
-51.
-52.
-53.
-54.
-55.
-56.
-57.
-58.
-59.
-60.
-61.
-62.
-63.
-64.
-65.
-66.
-67.
-68.
-69.
+1. 'Subject_code' : subject code from file 'train/subject_train.txt' or 'test/subject_test.txt'.
+
+2. 'Activity_name' : activity recoded to lower case names of activity original codes are in files: 'train/y_train.txt' or 'test/y_test.txt' original code - activity name mepping in file: 'activity_labels.txt'.
+
+3.-68. Average value for group coded by 'Subject_code' and 'Activity_name' originaly joined from files: 'train/y_train.txt' or 'test/X_test.txt'. The name of valiables have to be informative enough see the list of variables for referencies.
+
+Do not hesitate to ask any qustions about details of dataset.
+
+Ilya Alpatsky
+
+#Original study
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
