@@ -80,7 +80,141 @@ Variables in final dataset with averages for all mesurements means and standard 
 
 2. 'Activity_name' : activity recoded to lower case names of activity original codes are in files: 'train/y_train.txt' or 'test/y_test.txt' original code - activity name mepping in file: 'activity_labels.txt'.
 
-3.-68. Average value for group coded by 'Subject_code' and 'Activity_name' originaly joined from files: 'train/y_train.txt' or 'test/X_test.txt'. The name of valiables have to be informative enough see the list of variables for referencies.
+3. mean_tBodyAcc_mean_X = mean(tBodyAcc_mean_X);
+
+4. mean_tBodyAcc_mean_Y = mean(tBodyAcc_mean_Y);
+
+5. mean_tBodyAcc_mean_Z = mean(tBodyAcc_mean_Z);
+
+6. mean_tBodyAcc_std_X = mean(tBodyAcc_std_X);
+
+7. mean_tBodyAcc_std_Y = mean(tBodyAcc_std_Y);
+
+8. mean_tBodyAcc_std_Z = mean(tBodyAcc_std_Z);
+
+9. mean_tGravityAcc_mean_X = mean(tGravityAcc_mean_X); 
+
+10. mean_tGravityAcc_mean_Y = mean(tGravityAcc_mean_Y);
+
+11. mean_tGravityAcc_mean_Z = mean(tGravityAcc_mean_Z);
+
+12. mean_tGravityAcc_std_X = mean(tGravityAcc_std_X);
+
+13. mean_tGravityAcc_std_Y = mean(tGravityAcc_std_Y);
+
+14. mean_tGravityAcc_std_Z = mean(tGravityAcc_std_Z);
+
+15. mean_tBodyAccJerk_mean_X = mean(tBodyAccJerk_mean_X);
+
+16. mean_tBodyAccJerk_mean_Y = mean(tBodyAccJerk_mean_Y);
+
+17. mean_tBodyAccJerk_mean_Z = mean(tBodyAccJerk_mean_Z);
+
+18. mean_tBodyAccJerk_std_X = mean(tBodyAccJerk_std_X);
+
+19. mean_tBodyAccJerk_std_Y = mean(tBodyAccJerk_std_Y);
+
+20. mean_tBodyAccJerk_std_Z = mean(tBodyAccJerk_std_Z);
+
+21. mean_tBodyGyro_mean_X = mean(tBodyGyro_mean_X);
+
+22. mean_tBodyGyro_mean_Y = mean(tBodyGyro_mean_Y);
+
+23. mean_tBodyGyro_mean_Z = mean(tBodyGyro_mean_Z);
+
+24. mean_tBodyGyro_std_X = mean(tBodyGyro_std_X);
+
+25. mean_tBodyGyro_std_Y = mean(tBodyGyro_std_Y);
+
+26. mean_tBodyGyro_std_Z = mean(tBodyGyro_std_Z);
+
+27. mean_tBodyGyroJerk_mean_X = mean(tBodyGyroJerk_mean_X);
+
+28. mean_tBodyGyroJerk_mean_Y = mean(tBodyGyroJerk_mean_Y);
+
+29. mean_tBodyGyroJerk_mean_Z = mean(tBodyGyroJerk_mean_Z);
+
+30. mean_tBodyGyroJerk_std_X = mean(tBodyGyroJerk_std_X);
+
+31. mean_tBodyGyroJerk_std_Y = mean(tBodyGyroJerk_std_Y);
+
+32. mean_tBodyGyroJerk_std_Z = mean(tBodyGyroJerk_std_Z);
+
+33. mean_tBodyAccMag_mean = mean(tBodyAccMag_mean);
+
+34. mean_tBodyAccMag_std = mean(tBodyAccMag_std);
+
+35. mean_tGravityAccMag_mean = mean(tGravityAccMag_mean);
+
+36. mean_tGravityAccMag_std = mean(tGravityAccMag_std);
+
+37. mean_tBodyAccJerkMag_mean = mean(tBodyAccJerkMag_mean);
+
+38. mean_tBodyAccJerkMag_std = mean(tBodyAccJerkMag_std);
+
+39. mean_tBodyGyroMag_mean = mean(tBodyGyroMag_mean);
+
+40. mean_tBodyGyroMag_std = mean(tBodyGyroMag_std);
+
+41. mean_tBodyGyroJerkMag_mean = mean(tBodyGyroJerkMag_mean);
+
+42. mean_tBodyGyroJerkMag_std = mean(tBodyGyroJerkMag_std);
+
+43. mean_fBodyAcc_mean_X = mean(fBodyAcc_mean_X);
+
+44. mean_fBodyAcc_mean_Y = mean(fBodyAcc_mean_Y);
+
+45. mean_fBodyAcc_mean_Z = mean(fBodyAcc_mean_Z);
+
+46. mean_fBodyAcc_std_X = mean(fBodyAcc_std_X);
+
+47. mean_fBodyAcc_std_Y = mean(fBodyAcc_std_Y),
+
+48. mean_fBodyAcc_std_Z = mean(fBodyAcc_std_Z),
+
+49. mean_fBodyAccJerk_mean_X = mean(fBodyAccJerk_mean_X),
+
+50. mean_fBodyAccJerk_mean_Y = mean(fBodyAccJerk_mean_Y),
+
+51. mean_fBodyAccJerk_mean_Z = mean(fBodyAccJerk_mean_Z),
+
+52. mean_fBodyAccJerk_std_X = mean(fBodyAccJerk_std_X),
+
+53. mean_fBodyAccJerk_std_Y = mean(fBodyAccJerk_std_Y),
+
+54. mean_fBodyAccJerk_std_Z = mean(fBodyAccJerk_std_Z),
+
+55. mean_fBodyGyro_mean_X = mean(fBodyGyro_mean_X),
+
+56. mean_fBodyGyro_mean_Y = mean(fBodyGyro_mean_Y),
+
+57. mean_fBodyGyro_mean_Z = mean(fBodyGyro_mean_Z),
+
+58. mean_fBodyGyro_std_X = mean(fBodyGyro_std_X),
+
+59. mean_fBodyGyro_std_Y = mean(fBodyGyro_std_Y),
+
+60. mean_fBodyGyro_std_Z = mean(fBodyGyro_std_Z),
+
+61. mean_fBodyAccMag_mean = mean(fBodyAccMag_mean),
+
+62. mean_fBodyAccMag_std = mean(fBodyAccMag_std),
+
+63. mean_fBodyBodyAccJerkMag_mean = mean(fBodyBodyAccJerkMag_mean),
+
+64. mean_fBodyBodyAccJerkMag_std = mean(fBodyBodyAccJerkMag_std),
+
+65. mean_fBodyBodyGyroMag_mean = mean(fBodyBodyGyroMag_mean),
+
+66. mean_fBodyBodyGyroMag_std = mean(fBodyBodyGyroMag_std),
+
+67. mean_fBodyBodyGyroJerkMag_mean = mean(fBodyBodyGyroJerkMag_mean),
+
+68. mean_fBodyBodyGyroJerkMag_std = mean(fBodyBodyGyroJerkMag_std)
+
+3-68. Average value for group coded by 'Subject_code' and 'Activity_name' originaly joined from files: 'train/y_train.txt' or 'test/X_test.txt'. The name of valiables have to be informative enough see the list of variables for referencies.
+
+The variables were normalized so they are dimmentionless.
 
 Do not hesitate to ask any qustions about details of dataset.
 
