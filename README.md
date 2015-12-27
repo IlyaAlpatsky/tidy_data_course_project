@@ -49,3 +49,70 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 ## Code book details: Information about variables and summary choices
 
+According to the project design to prepare final tidy dataset from raw data distributed in different files we have:
+1. merged training and test data together;
+2. extracted from original dataset only mean and standard deviation for each mesurement;
+3. changed activity codes to descriptive activity names according to dictionary;
+4. changed variable names to make them more descriptive;
+5. made from tidy dataset generated on steps 1-4 new tidy dataset with averages for each activity and for each subject.
+
+Variables in final dataset with averages for all mesurements means and standard deviations groped by activity and subject:
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
+21.
+22.
+23.
+24.
+25.
+26
+27.
+28.
+29.
+30.
+41.
+42.
+43.
+44.
+45.
+46.
+47.
+48.
+49.
+50.
+51.
+52.
+53.
+54.
+55.
+56.
+57.
+58.
+59.
+60.
+61.
+62.
+63.
+64.
+65.
+66.
+67.
+68.
+69.
